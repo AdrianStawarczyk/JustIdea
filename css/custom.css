@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+
+.wheel span{
+  display: block;
+  position: absolute;
+  padding: 20px;
+  width: 220px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Hind', sans-serif;
+  color: #2F2F2F;
+}
+.circle-menu__circle__item.position--top span{
+  left: -85px;
+  bottom: 60px;
+  text-align: center;
+}
+.circle-menu__circle__item.position--top-right span{
+  left: 75px;
+  bottom: 20%;
+  text-align: left;
+}
+.circle-menu__circle__item.position--right span{
+  left: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+.circle-menu__circle__item.position--bottom-right span{
+  left: 75px;
+  top: 10px;
+  text-align: left;
+}
+.circle-menu__circle__item.position--bottom span{
+  left: -80px;
+  top: 60px;
+  text-align: center;
+}
+.circle-menu__circle__item.position--bottom-left span{
+  right: 75px;
+  top: 10px;
+  text-align: right;
+}
+.circle-menu__circle__item.position--left span{
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+}
+.circle-menu__circle__item.position--top-left span{
+  right: 75px;
+  bottom: 20%;
+  text-align: right;
+}
+
+@media (max-width: 1370px){
+  .wheel span{
+    padding: 10px;
+  }
+}
